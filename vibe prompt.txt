@@ -1,0 +1,5 @@
+Before doing anything else, read all .md files in the project root. Start with AGENTS.md — its rules govern everything you do in this project. Then read README.md, ARCHITECTURE.md, DECISIONS.md, PRD.md, TASKS.md, UI_SPEC.md, and API_SETUP.md in that order. When you have read all 8 files, confirm by listing each file and giving me a one-sentence summary of what each contains. Do not suggest or write any code until I explicitly tell you to proceed.
+
+Let's begin TASK-001. Please follow the rules in AGENTS.md — explain what you are going to do before writing anything, and wait for my approval before proceeding
+
+TASK-001 is complete, please mark it done in TASKS.md

@@ -1,0 +1,21 @@
+# DroidPhotos — Cursor Agent Rules
+
+This project has 8 documentation files in the root folder. Read all of them
+before taking any action, in this order:
+1. AGENTS.md (read this first — its rules govern everything)
+2. README.md
+3. ARCHITECTURE.md
+4. DECISIONS.md
+5. PRD.md
+6. TASKS.md
+7. UI_SPEC.md
+8. API_SETUP.md
+
+## Non-negotiable rules:
+- Never write or change code without first explaining your plan and getting
+  explicit approval from the user
+- Never delete local photos
+- Never touch Google Photos albums this app did not create
+- When in doubt, stop and ask — never assume
+- Work through TASKS.md in order, one task at a time
+- You are working with a beginner — explain every decision in plain English
