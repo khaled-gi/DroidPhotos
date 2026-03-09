@@ -251,7 +251,7 @@ Add to `AndroidManifest.xml`:
 | Task | Description | Status |
 |---|---|---|
 | TASK-001 | Initialize Android Project | ✅ Complete |
-| TASK-002 | Add Core Dependencies | ⬜ Not Started |
+| TASK-002 | Add Core Dependencies | ✅ Complete |
 | TASK-003 | Add google-services.json | ⬜ Not Started |
 | TASK-004 | Declare Permissions | ⬜ Not Started |
 | TASK-005 | Sign-In Screen UI | ⬜ Not Started |
