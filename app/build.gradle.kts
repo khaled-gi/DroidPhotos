@@ -2,8 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.hilt.android)
-    alias(libs.plugins.kotlin.kapt)
+    // alias(libs.plugins.hilt.android)
+    // alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.google.services)
 }
 
@@ -62,7 +62,7 @@ dependencies {
     // Room
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
-    kapt(libs.androidx.room.compiler)
+    // kapt(libs.androidx.room.compiler)
 
     // WorkManager
     implementation(libs.androidx.work.runtime.ktx)
@@ -78,9 +78,9 @@ dependencies {
     implementation(libs.google.auth.oauth2.http)
 
     // Hilt
-    implementation(libs.hilt.android)
-    kapt(libs.hilt.compiler)
-    implementation(libs.androidx.hilt.navigation.compose)
+    // implementation(libs.hilt.android)
+    // kapt(libs.hilt.compiler)
+   // implementation(libs.androidx.hilt.navigation.compose)
 
     // Coroutines
     implementation(libs.coroutines.core)
