@@ -2,6 +2,7 @@ package com.droidphotos
 
 import android.app.Activity
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -16,13 +17,13 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import com.example.droidphotos.ui.theme.DroidPhotosTheme
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.common.api.Scope
-import androidx.compose.ui.unit.dp
 
 class MainActivity : ComponentActivity() {
 
@@ -56,6 +57,7 @@ class MainActivity : ComponentActivity() {
                     isSignedIn = true
                     signInError = null
                 } catch (e: ApiException) {
+                    Log.w("MainActivity", "Google sign-in failed", e)
                     signInError = "Sign-in failed. Please try again."
                 }
             } else {
