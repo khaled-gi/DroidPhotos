@@ -254,8 +254,8 @@ Add to `AndroidManifest.xml`:
 | TASK-002 | Add Core Dependencies | ✅ Complete |
 | TASK-003 | Add google-services.json | ✅ Complete |
 | TASK-004 | Declare Permissions | ✅ Complete |
-| TASK-005 | Sign-In Screen UI | ⬜ Not Started |
-| TASK-006 | Google Sign-In Flow | ⬜ Not Started |
+| TASK-005 | Sign-In Screen UI | ✅ Complete |
+| TASK-006 | Google Sign-In Flow | ✅ Complete |
 | TASK-007 | Runtime Permission Requests | ⬜ Not Started |
 | TASK-008 | Room Database Setup | ⬜ Not Started |
 | TASK-009 | Unit Tests: SyncDatabase | ⬜ Not Started |
